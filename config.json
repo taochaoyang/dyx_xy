@@ -1,3 +1,4 @@
 {
-  "mysql_dsn": "root@209nb@tcp(39.105.96.155:3306)/dyx_xy?parseTime=true"
+  "mysql_dsn": "root@209nb@tcp(39.105.96.155:3306)/dyx_xy?parseTime=true",
+  "secret_key": "209_secret_key"
 }

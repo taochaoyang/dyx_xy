@@ -20,4 +20,7 @@
 # Go workspace file
 go.work
 
+# Go debug bin file
+__debug_bin
+
 .vscode

@@ -4,11 +4,12 @@ import (
 	"encoding/json"
 	"log"
 	"os"
+	"path/filepath"
 )
 
 var config map[string]string
 
-const configFilePath = "config.json"
+var configFilePath = filepath.Join(WORKSPACE, "config.json")
 
 func init() {
 	bytes, err := os.ReadFile(configFilePath)
